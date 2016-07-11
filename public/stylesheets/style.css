@@ -1,0 +1,23 @@
+html{
+  height: 100%;
+}
+
+body {
+  background-color: rgb(244, 246, 249) !important;
+  min-height: 100%;
+}
+
+.menu-disabled-true {
+  color: gray;
+}
+
+.selected {
+  background-color: lightgreen;
+}
+
+ul.line li.done span {
+  text-decoration : line-through;
+}
+ul.hide li.done span {
+  display: none;
+}
